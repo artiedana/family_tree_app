@@ -11,7 +11,7 @@ CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 SECRET_KEY = 'NhfTvayqggTBPswCXXhWaN69HuglgZIkM'
 
 DEBUG = True
-ALLOWED_HOSTS = ['24.199.64.211','pyfamilytree.me']
+ALLOWED_HOSTS = ['24.199.64.211','pyfamilytree.me','162.243.163.5']
 
 SITE_ID = 1
 
