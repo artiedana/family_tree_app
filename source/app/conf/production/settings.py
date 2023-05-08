@@ -13,6 +13,12 @@ ALLOWED_HOSTS = [
     'pyfamilytree.me'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'pyfamilytree.me',
+    'www.pyfamilytree.me',
+]
+
+
 SITE_ID = 1
 
 INSTALLED_APPS = [
