@@ -14,8 +14,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['137.184.99.249', 'pyfamilytree.me']
 
 CSRF_TRUSTED_ORIGINS = [
-    'pyfamilytree.me',
-    'www.pyfamilytree.me',
+    'https://pyfamilytree.me',
+    'https://www.pyfamilytree.me',
 ]
 
 
