@@ -13,6 +13,13 @@ SECRET_KEY = 'NhfTvayqggTBPswCXXhWaN69HuglgZIkM'
 DEBUG = True
 ALLOWED_HOSTS = ['137.184.99.249', 'pyfamilytree.me']
 
+CSRF_TRUSTED_ORIGINS = [
+    'pyfamilytree.me',
+    'www.pyfamilytree.me',
+]
+
+
+
 SITE_ID = 1
 
 INSTALLED_APPS = [
