@@ -44,7 +44,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_plotly_dash.middleware.BaseMiddleware',
 ]
-
+CORS_ORIGIN_WHITELIST = [
+    'http://pyfamiltree.me',
+    'https://pyfamilytree.me',
+]
 ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
