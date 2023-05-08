@@ -42,11 +42,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = [
-    'http://pyfamilytree.me',
-    'https://pyfamilytree.me',
-]
-
 ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
