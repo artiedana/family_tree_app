@@ -3,3 +3,4 @@ django-taggit
 django-tinymce
 Pillow
 django-plotly-dash
+gunicorn
