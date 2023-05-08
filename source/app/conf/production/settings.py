@@ -10,7 +10,8 @@ SECRET_KEY = '3d305kajG5Jy8KBafCMpHwDIsNi0SqVaW'
 DEBUG = False
 ALLOWED_HOSTS = [
     'pyfamilytree.me',
-    '24.199.64.211'
+    '24.199.64.211',
+    '162.243.163.5'
 ]
 
 SITE_ID = 1
