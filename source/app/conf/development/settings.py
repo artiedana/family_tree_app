@@ -76,10 +76,14 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL = 'test@PyFamilyTree.me'
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-EMAIL_HOST_USER = '06c0106fc3b64a'
-EMAIL_HOST_PASSWORD = '01ebc9abb61e44'
-EMAIL_PORT = '2525'
+#EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST = 'live.smtp.mailtrap.io'
+#EMAIL_HOST_USER = '06c0106fc3b64a'
+EMAIL_HOST_USER = 'api'
+#EMAIL_HOST_PASSWORD = '01ebc9abb61e44'
+EMAIL_HOST_PASSWORD = '5694f62a1e74b62e2121ca24325bd553'
+#EMAIL_PORT = '2525'
+EMAIL_PORT = '587'
 
 DATABASES = {
     'default': {
