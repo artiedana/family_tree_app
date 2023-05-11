@@ -253,7 +253,7 @@ class InvitationForm(forms.Form):
 
         send_mail(
             subject=f'{sender_name} has invited you to join our family tree',
-            message=f'Hi,\n\n{sender_name} has invited you to join our family tree at PyFamilyTree.me. Please click on the following link to create your account and get started:\n\n https://www.pyfamilytree.me\n\nWe look forward to seeing you there!\n\nBest,\nPyFamilyTree team',
+            message=f'Hi,\n\n{sender_name} has invited you to join our family tree at PyFamilyTree.me. Please click on the following link to create your account and get started:\n\n https://pyfamilytree.me\n\nWe look forward to seeing you there!\n\nBest,\nPyFamilyTree team',
             from_email='invite@PyFamilyTree.me',
             recipient_list=[recipient_email],
             fail_silently=False,
